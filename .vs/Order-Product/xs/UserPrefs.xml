@@ -1,0 +1,63 @@
+﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.ItemProperties.Product.Product1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{70AB792F-E327-4E35-8708-100BB0CDD913}" ItemName="API.Gateway" ConfigurationId="https" />
+        <StartupItem ItemId="{282705EF-E952-43EE-A7C1-8E9F1D4A3A0A}" ItemName="Order1" ConfigurationId="https" />
+        <StartupItem ItemId="{76B00629-24F9-4D01-849A-80C9EA7E2C57}" ItemName="Product1" ConfigurationId="https" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Gateway.API.Gateway PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Product/Program.cs">
+    <Files>
+      <File FileName="Product/appsettings.json" />
+      <File FileName="Order/Controllers/OrdersController.cs" />
+      <File FileName="API.Gateway/ocelot.json" />
+      <File FileName="Order/appsettings.json" />
+      <File FileName="Product/Program.cs" Line="9" Column="35" />
+      <File FileName="Order/Program.cs" />
+      <File FileName="Order/Data/ApplicationDbContext.cs" />
+      <File FileName="Order/Models/Order1.cs" />
+      <File FileName="Order/Properties/launchSettings.json" />
+      <File FileName="Order/Repository/IOrderRepository.cs" />
+      <File FileName="Product/Controllers/ProductsController.cs" />
+      <File FileName="Product/Data/ApplicationDbContext.cs" />
+      <File FileName="Product/Models/Product1.cs" />
+      <File FileName="Product/Properties/launchSettings.json" />
+      <File FileName="Product/Repository/IProductRepository.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Order-Product" expanded="True">
+            <Node name="Gateway" expanded="True">
+              <Node name="API.Gateway" expanded="True">
+                <Node name="Dependencies" expanded="True">
+                  <Node name="FrameworkReferences" expanded="True" />
+                  <Node name="PackageDependencies" expanded="True">
+                    <Node name="Microsoft.AspNetCore.OpenApi" expanded="True" />
+                    <Node name="Ocelot" expanded="True" />
+                    <Node name="Swashbuckle.AspNetCore" expanded="True">
+                      <Node name="Swashbuckle.AspNetCore.Swagger" expanded="True" selected="True" />
+                      <Node name="Swashbuckle.AspNetCore.SwaggerGen" expanded="True">
+                        <Node name="Swashbuckle.AspNetCore.Swagger" expanded="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Order1.Order1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
